@@ -33,15 +33,15 @@ public class RobertFlores {
 		complete.add(h);
 		complete.add(i);
 
-		a.addAdj(b).addAdj(d).addAdj(f).addAdj(h);
+		a.addAdj(b).addAdj(d).addAdj(e).addAdj(f);
 		b.addAdj(a).addAdj(d).addAdj(f).addAdj(i);
-		c.addAdj(d).addAdj(e).addAdj(g);
+		c.addAdj(d).addAdj(e).addAdj(g).addAdj(i);
 		d.addAdj(a).addAdj(b).addAdj(c).addAdj(i);
 		e.addAdj(a).addAdj(c).addAdj(f).addAdj(h);
 		f.addAdj(a).addAdj(b).addAdj(e).addAdj(h);
 		g.addAdj(c).addAdj(h).addAdj(i);
 		h.addAdj(e).addAdj(f).addAdj(g);
-		i.addAdj(b).addAdj(d).addAdj(g);
+		i.addAdj(b).addAdj(c).addAdj(d).addAdj(g);
 
 		v = a;
 		list.add(v);
